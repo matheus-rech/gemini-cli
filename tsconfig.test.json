@@ -10,5 +10,6 @@
     "integration-tests/**/*.ts",
     "scripts/tests/**/*.test.ts",
     "evals/**/*.ts"
-  ]
+  ],
+  "exclude": []
 }
