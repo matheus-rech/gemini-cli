@@ -255,7 +255,7 @@ Implement a comprehensive authentication system with multiple providers.
         }
 
         await waitFor(() => {
-          expect(lastFrame()).toMatchSnapshot();
+          expect(lastFrame()).toMatchSnapshot('feedback-typed');
         });
 
         writeKey(stdin, '\r');
@@ -472,7 +472,7 @@ Implement a comprehensive authentication system with multiple providers.
         writeKey(stdin, '\x03'); // Ctrl+C
 
         await waitFor(() => {
-          expect(lastFrame()).toMatchSnapshot();
+          expect(lastFrame()).toMatchSnapshot('text-cleared');
         });
         expect(onBubbledQuit).not.toHaveBeenCalled();
 
