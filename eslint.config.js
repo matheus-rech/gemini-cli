@@ -39,6 +39,8 @@ export default tseslint.config(
       'evals/**',
       'packages/test-utils/**',
       '.gemini/skills/**',
+      // CI installs actionlint, shellcheck and a Python venv here via GEMINI_LINT_TEMP_DIR, and the venv ships vendored JavaScript that is not ours to lint.
+      '.gemini-linters/**',
     ],
   },
   eslint.configs.recommended,
