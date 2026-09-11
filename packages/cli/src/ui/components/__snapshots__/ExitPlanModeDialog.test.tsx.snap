@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ExitPlanModeDialog > useAlternateBuffer: false > bubbles up Ctrl+C when feedback is empty while editing 1`] = `
+exports[`ExitPlanModeDialog > useAlternateBuffer: false > bubbles up Ctrl+C when feedback is empty while editing > text-cleared 1`] = `
 "Overview
 
 Add user authentication to the CLI application.
@@ -27,7 +27,7 @@ Enter to select · ↑/↓ to navigate · Ctrl+X to edit plan · Esc to cancel
 "
 `;
 
-exports[`ExitPlanModeDialog > useAlternateBuffer: false > calls onFeedback when feedback is typed and submitted 1`] = `
+exports[`ExitPlanModeDialog > useAlternateBuffer: false > calls onFeedback when feedback is typed and submitted > feedback-typed 1`] = `
 "Overview
 
 Add user authentication to the CLI application.
@@ -113,7 +113,7 @@ Enter to select · ↑/↓ to navigate · Ctrl+X to edit plan · Esc to cancel
 "
 `;
 
-exports[`ExitPlanModeDialog > useAlternateBuffer: true > bubbles up Ctrl+C when feedback is empty while editing 1`] = `
+exports[`ExitPlanModeDialog > useAlternateBuffer: true > bubbles up Ctrl+C when feedback is empty while editing > text-cleared 1`] = `
 "Overview
 
 Add user authentication to the CLI application.
@@ -140,7 +140,7 @@ Enter to select · ↑/↓ to navigate · Ctrl+X to edit plan · Esc to cancel
 "
 `;
 
-exports[`ExitPlanModeDialog > useAlternateBuffer: true > calls onFeedback when feedback is typed and submitted 1`] = `
+exports[`ExitPlanModeDialog > useAlternateBuffer: true > calls onFeedback when feedback is typed and submitted > feedback-typed 1`] = `
 "Overview
 
 Add user authentication to the CLI application.

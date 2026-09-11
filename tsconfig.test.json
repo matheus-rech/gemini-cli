@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": [
+    "packages/**/*.test.ts",
+    "packages/**/*.test.tsx",
+    "integration-tests/**/*.ts",
+    "scripts/tests/**/*.test.ts",
+    "evals/**/*.ts"
+  ],
+  "exclude": []
+}

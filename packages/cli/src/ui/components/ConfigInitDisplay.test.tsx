@@ -84,7 +84,7 @@ describe('ConfigInitDisplay', () => {
 
     // Wait for the UI to update
     await waitFor(() => {
-      expect(lastFrame()).toMatchSnapshot();
+      expect(lastFrame()).toMatchSnapshot('after-client-update');
     });
   });
 
@@ -120,7 +120,7 @@ describe('ConfigInitDisplay', () => {
     });
 
     await waitFor(() => {
-      expect(lastFrame()).toMatchSnapshot();
+      expect(lastFrame()).toMatchSnapshot('truncated-waiting-servers');
     });
   });
 
@@ -147,7 +147,7 @@ describe('ConfigInitDisplay', () => {
     }
 
     await waitFor(() => {
-      expect(lastFrame()).toMatchSnapshot();
+      expect(lastFrame()).toMatchSnapshot('empty-clients-map');
     });
   });
 });
